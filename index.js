@@ -5,7 +5,7 @@ const port = process.env.PORT || 5000;
 const data = require('./data/db.json');
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Next News API Sever!');
 });
 
 // Get all news with search and category filters
